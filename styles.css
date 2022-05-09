@@ -4,6 +4,8 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  filter: brightness(1.5);
+  image-rendering: pixelated;
 }
 div {
   height: 20px;
@@ -11,7 +13,7 @@ div {
   position: absolute;
   animation: ufo 60s infinite alternate forwards;
   cursor: pointer;
-  background-color: rgba(192, 192, 192, 0.786);
+  background-color: rgba(192, 192, 192, 0.75);
   border-radius: 50%;
   box-shadow: 1px 2px 10px 2px white;
 }
